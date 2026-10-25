@@ -1,0 +1,15 @@
+{
+  "name": "SuperKart Sales Deployment",
+  "portsAttributes": {
+    "7860": {
+      "label": "Flask Backend",
+      "onAutoForward": "notify",
+      "visibility": "public"
+    },
+    "8501": {
+      "label": "Streamlit Frontend",
+      "onAutoForward": "openPreview",
+      "visibility": "private"
+    }
+  }
+}
